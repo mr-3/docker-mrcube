@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build --platform linux/amd64 -t morita/mrcube:22.5.2-ja .
+docker build --platform linux/amd64 -t morita/mrcube:24.5.1-ja .

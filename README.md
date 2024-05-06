@@ -1,5 +1,5 @@
 # docker-mrcube
-[mrcube](https://mr-3.github.io/) 22.5.2 in a docker container for macOS.
+[mrcube](https://mr-3.github.io/) 24.5.1 in a docker container for macOS.
 
 ## Setup
 1. Download and install [XQuartz](https://www.xquartz.org).
