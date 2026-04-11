@@ -9,4 +9,4 @@ ENV LC_ALL=en_US.UTF-8
 RUN wget -P /tmp -nv https://github.com/mr-3/mrcube/releases/download/26.4.2/mrcube-26.4.2-all.jar
 
 WORKDIR /home/mrcube
-CMD java -Dsun.java2d.xrender=false -Dsun.java2d.pmoffscreen=false -Dremote.x11.workaround=false -Dawt.useSystemAAFontSettings=lcd -Dswing.aatext=true -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -jar -Djava2d.font.loadFontConf=true /tmp/mrcube-26.4.2-all.jar
+CMD java -Dsun.java2d.opengl=false -Dsun.java2d.xrender=false -Dsun.java2d.pmoffscreen=false -Dremote.x11.workaround=false -Dawt.useSystemAAFontSettings=lcd -Dswing.aatext=true -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -jar -Djava2d.font.loadFontConf=true /tmp/mrcube-26.4.2-all.jar
